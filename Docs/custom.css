@@ -69,7 +69,7 @@ body {
     
     #contact button[type="submit"] {
       background-color: rgb(255, 255, 255);
-      color: rgb(54, 53, 117);
+      color: #363575;
       padding: 10px 20px;
       border-radius: 5px;
       border: none;
@@ -79,7 +79,7 @@ body {
 
     /* Seção Sobre Nós */
 #about-us {
-  background-color: #923FB9;
+  background-color: #363575;
   color: #fff;
   padding: 50px 0;
 }
@@ -91,7 +91,7 @@ body {
 
 /* Seção Serviços */
 #services {
-  background-color: #fff;
+  background-color: #363575;
   padding: 50px 0;
 }
 
