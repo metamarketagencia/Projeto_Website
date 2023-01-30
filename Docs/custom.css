@@ -1,5 +1,5 @@
 body {
-    background-color: #923FB9rgb(54, 53, 117);
+    background-color: rgb(54, 53, 117);
   }
 
   h1 {
@@ -22,7 +22,7 @@ body {
       max-width: 120px;
     }
 
-    <!-- Stilo do formulario ,personalizar -->
+    <!-- Stilo do formulario -->
     #contact {
       background-color: rgb(54, 53, 117);
       padding: 50px 0;
