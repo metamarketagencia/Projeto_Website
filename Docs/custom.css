@@ -1,91 +1,86 @@
 body {
-  background-color: #923FB9;
-}
+    background-color: #923FB9);
+  }
 
-.banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 350px;
-  background-color: #210284;
-}
+  h1 {
+    color: black;
+    font-size: 46px;
+  }
+  p {
+    color: rgb(247, 242, 242);
+    font-size: 26px;
+  }
 
-.banner img {
-  height: 150px;
-}
+  <!-- stilo do banner  -->
+  <style>
+  .banner {
+    text-align: left;
+    padding: 20px 0;
+  }    
+    .banner img {
+      width: 100%;
+      max-width: 120px;
+    }
 
-.navbar-default {
-  background-color: #923FB9;
-  border-color: #210284;
-}
+    <!-- Stilo do formulario ,personalizar -->
+    #contact {
+      background-color: rgb(54, 53, 117);
+      padding: 50px 0;
+    }
+    
+    #contact h2 {
+      text-align: center;
+      color: rgb(0, 0, 0);
+      margin-bottom: 50px;
+    }
+    
+    #contact form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    #contact .form-group {
+      margin-bottom: 25px;
+    }
+    
+    #contact label,
+    #contact input,
+    #contact textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: none;
+      color: rgb(0, 0, 0);
+    }
+    
+    #contact input[type="text"],
+    #contact input[type="email"] {
+      background-color: rgb(255, 255, 255);
+    }
+    
+    #contact textarea {
+      background-color: rgb(255, 255, 255);
+      height: 150px;
+      resize: none;
+    }
+    
+    #contact button[type="submit"] {
+      background-color: rgb(255, 255, 255);
+      color: rgb(54, 53, 117);
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
 
-.navbar-default .navbar-brand {
-  color: #ffffff;
-}
+    
+  </style>
+  
 
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  background-color: #210284;
-}
-
-.container h1 {
-  color: #ffffff;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.container p {
-  color: #ffffff;
-  text-align: center;
-  margin-top: 20px;
-}
-
-#contact {
-  background-color: #210284;
-  color: #ffffff;
-  padding: 50px 0;
-}
-
-#contact h2 {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-#contact form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#contact form label {
-  margin-bottom: 10px;
-}
-
-#contact form input[type="text"],
-#contact form input[type="email"],
-#contact form textarea {
-  width: 500px;
-  height: 40px;
-  padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  border: none;
-  background-color: #ffffff;
-  color: #000000;
-}
-
-#contact form button[type="submit"] {
-  width: 200px;
-  height: 40px;
-  padding: 10px;
-  background-color: #923FB9;
-  border: none;
-  border-radius: 5px;
-  color: #ffffff;
-  font-weight: bold;
-  cursor: pointer;
-}
+  
+  
+  
