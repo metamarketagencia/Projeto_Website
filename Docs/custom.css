@@ -13,7 +13,10 @@ body {
 
     
   <style>
-    
+  .banner {
+    text-align: left;
+    padding: 20px 0;
+  }    
     .banner img {
       width: 100%;
       max-width: 180px;
