@@ -1,96 +1,18 @@
 </style>
 
+/* Arquivo CSS externo */
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  }
-  
-  .navbar {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .navbar a {
-    color: #fff;
-  }
-  
-  .banner {
-    background-image: url('banner.jpg');
-    background-size: cover;
-    height: 200px;
-    text-align: center;
-    color: #fff;
-    padding-top: 50px;
-  }
-  
-  .banner h1 {
-    font-size: 36px;
-  }
-  
-  .container {
-    padding-top: 30px;
-  }
-  
-  .services {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  
-  .services h2 {
-    font-size: 24px;
-  }
-  
-  .services p {
-    font-size: 18px;
-    padding-top: 15px;
-  }
-  
-  .services .item {
-    padding-top: 30px;
-  }
-  
-  .services .item .icon {
-    font-size: 36px;
-    color: #333;
-    padding-bottom: 15px;
-  }
-  
-  .contact {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  
-  .contact h2 {
-    font-size: 24px;
-  }
-  
-  .contact form {
-    padding-top: 30px;
-  }
-  
-  .contact form input[type="text"],
-  .contact form input[type="email"],
-  .contact form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    color: #333;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-  }
-  
-  .contact form input[type="submit"] {
-    background-color: rgb(230, 14, 14);
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 18
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Adicione mais regras CSS aqui */
+
 
     </style>
