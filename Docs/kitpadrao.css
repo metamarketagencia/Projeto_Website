@@ -2,12 +2,12 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #e61414;
 }
 
 .navbar {
-  background-color: #333;
-  color: #fff;
+  background-color: rgb(240, 17, 17);
+  color: rgb(238, 18, 18);
 }
 
 /* Adicione mais regras CSS aqui */
