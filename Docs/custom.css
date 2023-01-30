@@ -22,18 +22,59 @@ body {
       max-width: 120px;
     }
 
-    .banner {
-      animation: banner-slide 10s infinite;
+    #contact {
+      background-color: rgb(54, 53, 117);
+      padding: 50px 0;
     }
     
-    @keyframes banner-slide {
-      0% {
-        transform: translateX(0);
-      }
-      100% {
-        transform: translateX(5%);
-      }
+    #contact h2 {
+      text-align: center;
+      color: rgb(255, 255, 255);
+      margin-bottom: 50px;
     }
+    
+    #contact form {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    #contact .form-group {
+      margin-bottom: 25px;
+    }
+    
+    #contact label,
+    #contact input,
+    #contact textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: none;
+    }
+    
+    #contact input[type="text"],
+    #contact input[type="email"] {
+      background-color: rgb(255, 255, 255);
+    }
+    
+    #contact textarea {
+      background-color: rgb(255, 255, 255);
+      height: 150px;
+      resize: none;
+    }
+    
+    #contact button[type="submit"] {
+      background-color: rgb(255, 255, 255);
+      color: rgb(54, 53, 117);
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
     
   </style>
   
