@@ -10,6 +10,19 @@ body {
     color: rgb(247, 242, 242);
     font-size: 26px;
   }
+
+    
+  <style>
+    .banner {
+      text-align: left;
+      padding: 20px 0;
+    }
+    
+    .banner img {
+      width: 100%;
+      max-width: 180px;
+    }
+  </style>
   
   
   
